@@ -83,3 +83,12 @@ font-size: 100%;
 font-weight: 500;
 }
 }
+
+canvas {
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+  }

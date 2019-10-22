@@ -13,6 +13,15 @@ import { MatFormFieldModule } from "@angular/material";
 import { AnimeComponent } from './anime/anime.component';
 import { AnimationComponent } from './animation/animation.component';
 import { MyAnimeComponent } from './my-anime/my-anime.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { LottieModule} from 'ngx-lottie';
+import player from 'lottie-web';
+
+export function playerFactory(){
+  return player;
+}
+
+
 
 @NgModule({
   declarations: [
@@ -26,8 +35,9 @@ import { MyAnimeComponent } from './my-anime/my-anime.component';
     AnimeComponent,
     AnimationComponent,
     MyAnimeComponent,
+    AboutUsComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, MatFormFieldModule],
+  imports: [BrowserModule, AppRoutingModule, MatFormFieldModule,LottieModule.forRoot({player: playerFactory})],
   providers: [],
   bootstrap: [AppComponent]
 })
