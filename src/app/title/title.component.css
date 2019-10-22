@@ -89,7 +89,7 @@ section .container .btn:hover{
   margin-top: 25px;
   border-color: white;
   border-radius: 20px;
-  background-color: #ae00ff;
+  background-color: #cccccc;
   color: white;
 }
 
