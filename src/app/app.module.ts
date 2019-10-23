@@ -16,6 +16,8 @@ import { MyAnimeComponent } from './my-anime/my-anime.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { LottieModule} from 'ngx-lottie';
 import player from 'lottie-web';
+import { ServiceSectionComponent } from './service-section/service-section.component';
+import { FeaturedComponent } from './featured/featured.component';
 
 export function playerFactory(){
   return player;
@@ -36,6 +38,8 @@ export function playerFactory(){
     AnimationComponent,
     MyAnimeComponent,
     AboutUsComponent,
+    ServiceSectionComponent,
+    FeaturedComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, MatFormFieldModule,LottieModule.forRoot({player: playerFactory})],
   providers: [],

@@ -3,6 +3,7 @@
   <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#"><span>Project</span>Code</a>
+      <!-- <a href="#">Code</a> -->
       <button
         class="navbar-toggler"
         type="button"
@@ -38,29 +39,33 @@
 </div>
 
 <section>
-
-    <ng-lottie [options]="animationOptions">
-    
-    </ng-lottie>
-
-  <div class="container">
-    <h3 class="myTyper">
-      <a href="" style="color: rgb(167, 167, 167);" class="typewrite" data-period="2000" data-type='["We provide creative solutions to turn your ideas into digitaly reality", "We are experts in web apps!!!", "Crafting digital agency experiences..."]' >
-        <span class="wrap"></span>
-      </a>
-  </h3>
-  
-  <div>
-  	<button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">
-  	    Let's get started
-  	</button>
+  <div class="row">
+    <div class="col-md text-center">
+      <h3 class="myTyper">
+        <a
+          href=""
+          style="color: rgb(255, 255, 255);"
+          class="typewrite"
+          data-period="2000"
+          data-type='["We provide creative solutions to turn your ideas into digitaly reality", "We are experts in web apps!!!", "Crafting digital agency experiences..."]'
+        >
+          <span class="wrap"></span>
+        </a>
+      </h3>
+      <button
+        type="button"
+        class="btn"
+        data-toggle="button"
+        aria-pressed="false"
+        autocomplete="off"
+      >
+        Let's get started
+      </button>
+    </div>
+    <div class="col-md">
+      <ng-lottie [options]="animationOptions"> </ng-lottie>
+    </div>
   </div>
-  
-   
-  </div>
-
-  
-
 
   <div class="bgPulse">
     <span></span>
