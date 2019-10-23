@@ -209,7 +209,7 @@ ng-lottie{
     color: white;
   }
 
-  .container{
+  section .container{
    text-align: center;
   }
 
@@ -252,7 +252,7 @@ ng-lottie{
     color: white;
   }
 
-  .container{
+  section .container{
     text-align: center;
    }
 
@@ -269,11 +269,11 @@ ng-lottie{
   }
 
   ng-lottie{
-    width: 300px;
+    width: 330px;
     height: 300px;
     position: absolute;
-    left: 20%;
-    bottom: 2%;
+    left: 15%;
+    bottom: 1%;
   
   }
 }
