@@ -88,8 +88,8 @@ ng-lottie{
   width: 600px;
   height: 600px;
   position: absolute;
-  left: 30%;
-  bottom: 4%;
+  left: 40%;
+  bottom: 2%;
 
 }
 
@@ -209,6 +209,10 @@ ng-lottie{
     color: white;
   }
 
+  .container{
+   text-align: center;
+  }
+
   section .container .btn{
     margin-top: 25px;
     border-color: white;
@@ -217,7 +221,51 @@ ng-lottie{
   }
 
   .myTyper{
-    margin-top: 250px;
+    margin-top: 200px;
+  }
+
+  ng-lottie{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 20%;
+    bottom: 2%;
+  
+  }
+}
+
+/* mobile view */
+@media (max-width: 600px) {
+  .navbar-nav {
+    border-top: 3px solid #c20d76;
+    color: rgb(0, 0, 0);
+  }
+  .navbar-nav .nav-item .nav-link {
+    padding: 0.7em 1em !important;
+    font-size: 100%;
+    font-weight: 500;
+  }
+
+  .navbar-toggler {
+    background: transparent;
+    text-align: left;
+    color: white;
+  }
+
+  .container{
+    text-align: center;
+   }
+
+  section .container .btn{
+    margin-top: 25px;
+    border-color: white;
+    border-radius: 20px;
+    color: white;
+
+  }
+
+  .myTyper{
+    margin-top: 200px;
   }
 
   ng-lottie{
@@ -225,7 +273,8 @@ ng-lottie{
     height: 300px;
     position: absolute;
     left: 20%;
-    bottom: 4%;
+    bottom: 2%;
   
   }
 }
+
