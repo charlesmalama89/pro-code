@@ -1,5 +1,5 @@
-.navbar {
-  /* transition: 699.99ms ease; */
+/* .navbar {
+  transition: 699.99ms ease;
   position: absolute;
 }
 .navbar.scrolled {
@@ -41,7 +41,7 @@
   background: transparent;
   text-align: left;
   color: white;
-}
+} */
 
 section {
   /* position: absolute; */
