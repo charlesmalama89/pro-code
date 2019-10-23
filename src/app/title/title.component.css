@@ -42,25 +42,6 @@
   color: white;
 }
 
-/* mobile view */
-@media (max-width: 500px) {
-  .navbar-nav {
-    border-top: 3px solid #c20d76;
-    color: rgb(0, 0, 0);
-  }
-  .navbar-nav .nav-item .nav-link {
-    padding: 0.7em 1em !important;
-    font-size: 100%;
-    font-weight: 500;
-  }
-
-  .navbar-toggler {
-    background: transparent;
-    text-align: left;
-    color: white;
-  }
-}
-
 .body {
   margin: 0;
   padding: 0;
@@ -75,6 +56,8 @@ section {
   background: url("/assets/image/tech.jpg");
   background-size: cover;
   overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
   /* animation: bgColor 20s linear infinite; */
 }
 
@@ -82,6 +65,8 @@ section .container .btn{
   margin-top: 25px;
   border-color: white;
   border-radius: 20px;
+  width: 200px;
+  height: 40px;
   color: white;
 }
 
@@ -203,5 +188,44 @@ ng-lottie{
   }
   100% {
     background: #f44336;
+  }
+}
+
+/* mobile view */
+@media (max-width: 500px) {
+  .navbar-nav {
+    border-top: 3px solid #c20d76;
+    color: rgb(0, 0, 0);
+  }
+  .navbar-nav .nav-item .nav-link {
+    padding: 0.7em 1em !important;
+    font-size: 100%;
+    font-weight: 500;
+  }
+
+  .navbar-toggler {
+    background: transparent;
+    text-align: left;
+    color: white;
+  }
+
+  section .container .btn{
+    margin-top: 25px;
+    border-color: white;
+    border-radius: 20px;
+    color: white;
+  }
+
+  .myTyper{
+    margin-top: 250px;
+  }
+
+  ng-lottie{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 20%;
+    bottom: 4%;
+  
   }
 }
