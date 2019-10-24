@@ -56,19 +56,20 @@ section {
 
 section .btn {
   margin-top: 25px;
-  border-color: white;
+  border: 2px solid white;
   border-radius: 20px;
   width: 200px;
   height: 40px;
   color: white;
+  transition: 0.4s linear;
 }
 
 section .btn:hover {
   margin-top: 25px;
   border-color: white;
   border-radius: 20px;
-  background-color: #00d7df;
-  color: white;
+  background-color: rgb(72, 196, 0);
+  color: #000000;
 }
 
 .myTyper {

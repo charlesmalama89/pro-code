@@ -18,7 +18,7 @@
 .border{
     width: 100px;
     height: 3px;
-    background: #e74c3c;
+    background: rgb(72, 196, 0);
     margin:40px 0;
 }
 
@@ -42,9 +42,9 @@
 
 .about a{
     display: inline-block;
-    color: #e74c3c;
+    color: rgb(72, 196, 0);
     text-decoration: none;
-    border: 2px solid #e74c3c;
+    border: 2px solid rgb(72, 196, 0);
     border-radius: 24px;
     padding: 8px 40px;
     transition: 0.4s linear;
@@ -53,7 +53,7 @@
 
 .about a:hover{
     color: #fff;
-    background: #e74c3c;
+    background: rgb(72, 196, 0);
 }
 
 .skills{
@@ -73,7 +73,7 @@
 
 .progress-bar{
     height: 12px;
-    background: #e74c3c;
+    background: rgb(72, 196, 0);
     border-radius: 12px;
 }
 
