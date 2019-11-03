@@ -35,7 +35,7 @@ h1{
 }
 h1:after{
   content: '';
-  background:rgb(72, 196, 0);
+  background:#fed136;
   display: block;
   width: 150px;
   height: 3px;
@@ -74,7 +74,7 @@ h1:after{
   left: 0;
   width: 100%;
   height: 5px;
-  background: rgb(72, 196, 0);
+  background: #fed136;
   border-radius: 10px;
   opacity: 0;
   transition: 1s;  
@@ -111,6 +111,6 @@ h1:after{
 }
 
 .serv:hover .icon{
-  box-shadow: 0 0 0 14px #f36d00;
+  box-shadow: 0 0 0 14px #fed136;
   transform: scale(0.7);
 }
